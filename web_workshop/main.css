@@ -6,7 +6,7 @@
 html{
 	margin: 0;
 	padding: 0;
-	background-color: #f2f2ec;
+	background-color: yellow;
 
 	font-family: Helvetica-light, Arial, sans-serif;
 
@@ -21,18 +21,18 @@ body{
 
 	border-style: solid;
 	border-color: red;
-	border-width: 1px;	
+	border-width: 2px;	
 }
 
 
 
 a:link {
-  color: #000000;
+  color: green;
 }
 
 /* visited link */
 a:visited {
-  color: #000000;
+  color: green;
 }
 
 /* mouse over link */
@@ -93,7 +93,7 @@ img {
   overflow: hidden;
   background-color: white;  
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
   z-index: 999;
 
@@ -169,6 +169,13 @@ img {
 	border-color: red;
 	border-width: 1px;
 
+}
+
+#pinkbox {
+	background-color:pink;
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
 }
 
 
