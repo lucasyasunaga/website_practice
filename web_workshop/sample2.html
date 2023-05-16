@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>sample1</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="images/electronics.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myNavbar");
+			if (x.className === "navbar") {
+				x.className += " responsive";
+			} else {
+				x.className = "navbar";
+			}
+		}
+	</script> 
+
+
+	<header>
+		<h1> Test Website </h1>
+	</header>
+
+
+	<div class="navbar" id="myNavbar">
+		<a href="index.html" class="active">Home</a>
+		<a href="sample1.html">sample1</a>
+		<!-- <a href="#resources">resources</a> -->
+		<a href="#contacts">contacts</a>
+		<a href="cv.html">CV</a>
+
+		<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+	</div> 
+
+
+	<div id = "container">
+
+		<div id="header"> sample page1</div>
+
+		<div id = "container">
+		<iframe src="https://docs.google.com/document/d/e/2PACX-1vT-xsx2ZSs4_AzA9gGHIaO-uQGtaVsIag5Q0gI_-2j3TWfdPKwSboyJZC3348DAzFpDCxYR7OCLhUlq/pub?embedded=true" style="float:center; min-width:700px; min-height: 1000px;"></iframe> </div>
+
+		
+
+
+
+
+
+
+	</div>
+
+
+
+<footer> 
+This website was created for the purpose of testing 2023</p></footer>
+     
+</body>
+</html>
