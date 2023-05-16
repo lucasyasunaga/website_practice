@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>test website</title>
+	<link rel="stylesheet" href="main.css">
+	<link rel="icon" href="images/electronics.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("myNavbar");
+			if (x.className === "navbar") {
+				x.className += " responsive";
+			} else {
+				x.className = "navbar";
+			}
+		}
+	</script> 
+
+
+	<header>
+		<h1> Test Website </h1>
+	</header>
+
+
+	<div class="navbar" id="myNavbar">
+		<a href="index.html" class="active">Home</a>
+		<a href="sample1.html">sample1</a>
+		<!-- <a href="#resources">resources</a> -->
+		<a href="#contacts">contacts</a>
+		<a href="#about">what about</a>
+
+		<a href="javascript:void(0);" style="font-size:30px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+	</div> 
+
+
+	<div id = "container">
+
+		<div id="header"> Test Website Structure</div>
+
+		<h2>百笙 Centikhene - electronic mouth organ</h2>
+
+		<a href="centikhene.html" title="centikhene3"><img src="images/centikhene1.JPG" style="width:100%" ></a>
+
+		<h3>百笙 (hyakushō) - Centikhene is an electronic mouth organ that is modeled after the Laotian traditional mouth organ, Khene, and the Japanese traditional mouth organ, 笙 Shō. </h3>
+
+		<p>
+           Centikhene’s circuit design is born out of one of the electronic bugs from the project <a href="http://electronicentomology.com"> Electronic Entomology</a>. Centikhene is an attempt to create an electronic folk instrument that is a companion for our daily life. The goal is to have a simple enough design in its interface and architecture, the spirit of folk instrument which lends itself to be iterated, modified and be played by many users. 
+        </p>
+
+
+      
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/b2Hi7Wn6030" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+         <p>
+          Centikhene possesses a breath synchronization instrument (breath sensor) that are developed and adopted from  <a href="http://ijfritz.byethost4.com/Stealth/st_over.htm">Ian Fritz's design of wind sensor</a> to be bidirectional.
+
+           This triggers notes with the movement of the diaphragm both at inhale and exhale, allowing the player to play rhythmically and continuously. This ongoing project started with the help of <a href="https://lorre-mill.com/"> Will Schorre</a> and has gone through a few iterations of prototyping. The next generation is currently been designed with a consideration of bringing the full potential of this format. There will be performances in the near future.
+        </p>
+
+        <div class="imagebox">
+        	<img src="images/centikhene1.JPG" style="width:100%" ></a>
+        </div>
+
+
+        <h2 id="contacts">Contacts</h2>
+
+        yasunagadotwork@gmail.com
+
+
+
+
+
+
+	</div>
+
+
+
+<footer> 
+This website was created for the purpose of testing 2023</p></footer>
+     
+</body>
+</html>
